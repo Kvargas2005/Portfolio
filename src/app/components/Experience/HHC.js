@@ -9,7 +9,7 @@ export default function WebDeveloper() {
             </div>
 
             <p className="text-gray-400 mt-4">
-                I worked on a system to streamline the job application process at Grupo Bimbo using Microsoft Power Platform for the human resources department. In addition, I participated in the development of a system for the facilities department to register and manage maintenance requests within the company's facilities.
+                {`I worked on a system to streamline the job application process at Grupo Bimbo using Microsoft Power Platform for the human resources department. In addition, I participated in the development of a system for the facilities department to register and manage maintenance requests within the company's facilities.`}
             </p>
 
             <div className="inline-flex flex-wrap gap-2 mt-4 bg-[#1C1C20] rounded-full p-2 max-w-full">
