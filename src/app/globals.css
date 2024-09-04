@@ -49,3 +49,8 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
+
+/* Este es para bajar lentamente*/
+html { 
+  scroll-behavior: smooth;
+}

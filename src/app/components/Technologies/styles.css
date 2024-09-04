@@ -1,0 +1,5 @@
+.border-tech {
+    border: '3px solid';
+    border-image: linear-gradient(to right, #622FF1 40%, #B27FEF) 1;
+    border-radius: 0.5rem; /* Mantener el borde redondeado */
+}

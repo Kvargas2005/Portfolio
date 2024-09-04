@@ -1,10 +1,11 @@
 "use client";
 
 import Image from 'next/image';
+import "./styles.css";
 
 export default function About() {
     return (
-        <div className="bg-[#1C1C20] flex flex-col justify-center items-center pt-14 pb-14">
+        <div id="technologies-section" className="bg-[#1C1C20] flex flex-col justify-center items-center pt-14 pb-14">
             <div className='py-10 text-center'>
                 <h2 className="text-gradient font-bold text-3xl md:text-5xl lg:text-6xl leading-normal md:leading-relaxed lg:leading-relaxed">
                     Technologies
@@ -16,7 +17,7 @@ export default function About() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 max-w-5xl mx-auto text-center">
                 {/* Frontend */}
-                <div className="border border-[#8E94BC] rounded-lg p-6">
+                <div className="border-tech border rounded-lg p-6 pb-16">
                     <h3 className="text-white text-3xl font-semibold m-7">Frontend</h3>
                     <div className="grid grid-cols-3 gap-4">
                         <div className="flex flex-col items-center">
@@ -55,72 +56,76 @@ export default function About() {
                 </div>
 
                 {/* Backend */}
-                <div className="border border-[#8E94BC] rounded-lg p-6">
+                <div className="border-tech border rounded-lg p-6 pb-16">
                     <h3 className="text-white text-3xl font-semibold m-7">Backend</h3>
                     <div className="grid grid-cols-3 gap-4">
                         <div className="flex flex-col items-center">
-                            <Image src="/images/CSS.svg" alt="CSS" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">CSS</p>
+                            <Image src="/images/Php.svg" alt="CSS" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">PHP</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/HTML.svg" alt="HTML" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">HTML</p>
+                            <Image src="/images/CSharp.svg" alt="HTML" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">C#</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/JS.svg" alt="JS" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">JavaScript</p>
+                            <Image src="/images/Python.svg" alt="JS" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Python</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/Next.svg" alt="Next" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">Next.js</p>
+                            <Image src="/images/Java.svg" alt="Next" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Java</p>
                         </div>
                         {/* Add more as needed */}
                     </div>
                 </div>
 
                 {/* Database */}
-                <div className="border border-[#8E94BC] rounded-lg p-6">
+                <div className="border-tech border rounded-lg p-6 pb-16">
                     <h3 className="text-white text-3xl font-semibold m-7">Database</h3>
                     <div className="grid grid-cols-3 gap-4">
                         <div className="flex flex-col items-center">
-                            <Image src="/images/CSS.svg" alt="CSS" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">CSS</p>
+                            <Image src="/images/MySql.svg" alt="CSS" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">MySQL</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/HTML.svg" alt="HTML" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">HTML</p>
+                            <Image src="/images/SQLServer.svg" alt="HTML" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">SQLServer</p>
                         </div>
                         {/* Add more as needed */}
                     </div>
                 </div>
 
                 {/* Tools */}
-                <div className="border border-[#8E94BC] rounded-lg p-6">
+                <div className="border-tech border rounded-lg p-6 pb-16">
                     <h3 className="text-white text-3xl font-semibold m-7">Tools</h3>
                     <div className="grid grid-cols-3 gap-4">
                         <div className="flex flex-col items-center">
-                            <Image src="/images/CSS.svg" alt="CSS" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">CSS</p>
+                            <Image src="/images/WordPress.svg" alt="CSS" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">WordPress</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/HTML.svg" alt="HTML" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">HTML</p>
+                            <Image src="/images/Github.svg" alt="HTML" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Github</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/HTML.svg" alt="HTML" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">HTML</p>
+                            <Image src="/images/PowerApps.svg" alt="HTML" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">PowerApps</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/CSS.svg" alt="CSS" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">CSS</p>
+                            <Image src="/images/Flow.svg" alt="CSS" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Microsoft Flow</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/HTML.svg" alt="HTML" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">HTML</p>
+                            <Image src="/images/Power.svg" alt="CSS" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Power BI</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/HTML.svg" alt="HTML" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">HTML</p>
+                            <Image src="/images/Figma.svg" alt="HTML" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Figma</p>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <Image src="/images/Draw.svg" alt="HTML" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Draw.io</p>
                         </div>
                         {/* Add more as needed */}
                     </div>

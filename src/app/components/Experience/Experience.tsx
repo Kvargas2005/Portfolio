@@ -23,7 +23,7 @@ export default function Experience() {
     };
 
     return (
-        <div className="bg-[#161618] flex items-center justify-center p-4 pt-32 pb-32">
+        <div id="experience-section" className="bg-[#161618] flex items-center justify-center p-4 pt-32 pb-32">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row md:space-x-12">
                     {/* Sección Izquierda */}

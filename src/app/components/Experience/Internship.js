@@ -20,6 +20,9 @@ export default function Internship() {
             <p className="text-gray-400 mt-4">
                 Every day I had a meeting in Teams to see the progress, doubts and schedule meetings with other departments. For this reason, communication was very present.
             </p>
+            <p className="text-gray-400 mt-4">
+                Learning these new technologies was a challenge; however, my desire to learn and my mindset helped me meet this challenge.
+            </p>
             <div className="inline-flex flex-wrap gap-2 mt-4 bg-[#1C1C20] rounded-full p-2 max-w-full">
                 <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">PowerApps</span>
                 <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">Microsoft Flow</span>
