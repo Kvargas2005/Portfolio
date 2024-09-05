@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Internship from "./Internship";
 import WebDeveloper from "./WebDeveloper";
 import HHC from "./HHC";
+import COVAO from "./COVAO";
 
 export default function Experience() {
     const [activeSection, setActiveSection] = useState("WebDeveloper");
@@ -17,6 +18,8 @@ export default function Experience() {
                 return <Internship />;
             case "HHC":
                 return <HHC />;
+            case "COVAO":
+                return <COVAO />;
             default:
                 return null;
         }
@@ -46,6 +49,11 @@ export default function Experience() {
                             <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("HHC")}>
                                 <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "HHC" ? "text-white" : "text-gray-400"}`}>
                                     HHC
+                                </h6>
+                            </div>
+                            <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("COVAO")}>
+                                <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "COVAO" ? "text-white" : "text-gray-400"}`}>
+                                    COVAO
                                 </h6>
                             </div>
                         </div>

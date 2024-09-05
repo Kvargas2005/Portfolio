@@ -64,7 +64,7 @@ export default function About() {
                             <p className="text-[#8E94BC] mt-2">PHP</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/CSharp.svg" alt="HTML" width={50} height={50} />
+                            <Image src="/images/Csharp.svg" alt="C#" width={50} height={50} />
                             <p className="text-[#8E94BC] mt-2">C#</p>
                         </div>
                         <div className="flex flex-col items-center">
@@ -74,6 +74,10 @@ export default function About() {
                         <div className="flex flex-col items-center">
                             <Image src="/images/Java.svg" alt="Next" width={50} height={50} />
                             <p className="text-[#8E94BC] mt-2">Java</p>
+                        </div>
+                        <div className="flex flex-col items-center">
+                            <Image src="/images/ASP.svg" alt="ASP" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">.NET</p>
                         </div>
                         {/* Add more as needed */}
                     </div>
