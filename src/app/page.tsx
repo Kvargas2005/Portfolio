@@ -19,7 +19,7 @@ export default function ImKendall() {
       </div>
 
       <div className="pt-8 pb-10 text-center">
-        <a href="/Docs/CV_KendallVargasRamírez.pdf" target="_blank" className="bg-[#622FF1] text-white py-3 ps-16 pe-16 px-4 rounded-xl text-base hover:bg-[#9663ef] transition duration-300">
+        <a href="/Docs/Kendall_Vargas_Resume.pdf" target="_blank" className="bg-[#622FF1] text-white py-3 ps-16 pe-16 px-4 rounded-xl text-base hover:bg-[#9663ef] transition duration-300">
           Download Resume
         </a>
       </div>

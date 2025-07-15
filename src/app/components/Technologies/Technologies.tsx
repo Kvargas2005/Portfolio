@@ -64,7 +64,7 @@ export default function About() {
                             <p className="text-[#8E94BC] mt-2">PHP</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/laravel.svg" alt="Laravel" width={50} height={50} />
+                            <Image src="/images/Laravel.svg" alt="Laravel" width={50} height={50} />
                             <p className="text-[#8E94BC] mt-2">Laravel</p>
                         </div>
                         <div className="flex flex-col items-center">
