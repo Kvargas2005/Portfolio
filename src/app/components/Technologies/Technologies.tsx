@@ -64,6 +64,10 @@ export default function About() {
                             <p className="text-[#8E94BC] mt-2">PHP</p>
                         </div>
                         <div className="flex flex-col items-center">
+                            <Image src="/images/Laravel.svg" alt="Laravel" width={50} height={50} />
+                            <p className="text-[#8E94BC] mt-2">Laravel</p>
+                        </div>
+                        <div className="flex flex-col items-center">
                             <Image src="/images/Csharp.svg" alt="C#" width={50} height={50} />
                             <p className="text-[#8E94BC] mt-2">C#</p>
                         </div>
@@ -72,13 +76,10 @@ export default function About() {
                             <p className="text-[#8E94BC] mt-2">Python</p>
                         </div>
                         <div className="flex flex-col items-center">
-                            <Image src="/images/Java.svg" alt="Next" width={50} height={50} />
-                            <p className="text-[#8E94BC] mt-2">Java</p>
-                        </div>
-                        <div className="flex flex-col items-center">
                             <Image src="/images/ASP.svg" alt="ASP" width={50} height={50} />
                             <p className="text-[#8E94BC] mt-2">.NET</p>
                         </div>
+
                         {/* Add more as needed */}
                     </div>
                 </div>

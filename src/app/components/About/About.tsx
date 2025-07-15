@@ -12,7 +12,9 @@ export default function About() {
                             About Me
                         </h6>
                         <p className="text-[#8E94BC]">
-                            I am more than a developer; I am a person who, when faced with goals, seeks ways to achieve them. I stand out for my desire to improve every day and for my commitment to constant learning. During my short but intense experience, I have faced various challenges where I have had to act as a project leader, learn new technologies to address project needs, work under pressure, and adapt quickly to changes.
+                            I’m Kendall Vargas, a passionate and detail-oriented junior developer from Costa Rica. I specialize in full-stack web development, with experience in PHP, Laravel, JavaScript, React, and MySQL. My background in technical support has given me a strong foundation in problem-solving, networks, and system maintenance, which I now apply to building reliable and user-friendly software solutions.
+
+                            I enjoy transforming manual or inefficient processes into modern web systems that simplify life for both users and teams. I've worked on projects from scratch, including interface design, backend logic, and database modeling—always with a focus on clean code, usability, client communication, and agile methodologies such as SCRUM and Kanban.
                         </p>
                     </div>
 

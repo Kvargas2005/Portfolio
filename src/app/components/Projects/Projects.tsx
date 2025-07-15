@@ -3,17 +3,17 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Transportelo from "./Transportelo";
-import Intra from "./Intra";
+import HHC from "./HHC";
 
-export default function Experience() {
-    const [activeSection, setActiveSection] = useState("Intra");
+export default function Projects() {
+    const [activeSection, setActiveSection] = useState("Transportelo");
 
     const renderSection = () => {
         switch (activeSection) {
-             case "Intra":
-                return <Intra />;
-            case "Transportelo":
+             case "Transportelo":
                 return <Transportelo />;
+            case "HHC":
+                return <HHC />;
             default:
                 return null;
         }
@@ -30,21 +30,17 @@ export default function Experience() {
                         </h6>
 
                         <div className="relative pl-6 border-l-4 border-[#576eff]">
-                            <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("Intra")}>
-                                <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "WebDeveloper" ? "text-white" : "text-gray-400"}`}>
-                                    INTRA
-                                </h6>
-                            </div>
                             <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("Transportelo")}>
-                                <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "Internship" ? "text-white" : "text-gray-400"}`}>
+                                <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "Transportelo" ? "text-white" : "text-gray-400"}`}>
                                     Transpórtelo con Dave
                                 </h6>
                             </div>
                             <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("HHC")}>
                                 <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "HHC" ? "text-white" : "text-gray-400"}`}>
-                                    Hours Worked
+                                    HHC
                                 </h6>
                             </div>
+                        
                         </div>
                     </div>
 

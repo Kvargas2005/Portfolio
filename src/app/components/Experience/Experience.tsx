@@ -4,8 +4,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Internship from "./Internship";
 import Vig from "./Vig";
-import HHC from "./HHC";
-import COVAO from "../Projects/COVAO";
+import Intra from "./Intra";
+
 
 export default function Experience() {
     const [activeSection, setActiveSection] = useState("Vig");
@@ -14,10 +14,10 @@ export default function Experience() {
         switch (activeSection) {
             case "Vig":
                 return <Vig />;
+            case "Intra":
+                return <Intra />;
             case "Internship":
                 return <Internship />;
-            case "HHC":
-                return <HHC />;
             default:
                 return null;
         }
@@ -39,14 +39,14 @@ export default function Experience() {
                                     Visionary iGaming
                                 </h6>
                             </div>
+                            <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("Intra")}>
+                                <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "Intra" ? "text-white" : "text-gray-400"}`}>
+                                    INTRA
+                                </h6>
+                            </div>
                             <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("Internship")}>
                                 <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "Internship" ? "text-white" : "text-gray-400"}`}>
                                     Grupo Bimbo
-                                </h6>
-                            </div>
-                            <div className="mb-10 cursor-pointer" onClick={() => setActiveSection("HHC")}>
-                                <h6 className={`font-semibold text-lg md:text-xl lg:text-3xl leading-normal md:leading-relaxed lg:leading-relaxed ${activeSection === "HHC" ? "text-white" : "text-gray-400"}`}>
-                                    HHC
                                 </h6>
                             </div>
                            

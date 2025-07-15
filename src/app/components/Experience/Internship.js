@@ -5,7 +5,7 @@ export default function Internship() {
                 <h6 className="text-gradient font-semibold text-xl md:text-2xl lg:text-4xl leading-normal md:leading-relaxed lg:leading-relaxed">
                     Internship
                 </h6>
-                <h6 className="text-gray-400 ml-2 ps-6">Oct 2023 to Dec 2023</h6>
+                <h6 className="text-gray-400 ml-2 ps-6">Oct 2023 - Dec 2023</h6>
             </div>
 
             <p className="text-gray-400 mt-4">

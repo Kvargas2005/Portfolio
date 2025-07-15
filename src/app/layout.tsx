@@ -28,7 +28,7 @@ export default function RootLayout(
         <Technologies />
         <footer className='bg-[#161618] py-10 flex justify-center items-center text-[#8E94BC]'>
           <div className="flex flex-col items-center">
-            <p>Kendall Vargas Ramírez Portfolio 2024</p>
+            <p>Kendall Vargas Ramírez Portfolio 2025</p>
             <p className="pt-6">Next.js Site</p>
           </div>
         </footer>

@@ -9,29 +9,20 @@ export default function Vig() {
             </div>
 
             <p className="text-gray-400 mt-4">
-                Responsible for the maintenance and repair of equipment, managing tickets,
-                and addressing assigned cases. Provide hardware and software support,
-                including troubleshooting, installation, and updates. Handle tasks related to
-                cabling, physical connections, and logical network setups, ensuring optimal
-                system performance and connectivity</p>
-            <p className="text-gray-400 mt-4">
-                {`I worked on sending emails, so that when customers fill out a form, when they hit send they are sent a copy of their answers and the administrator is sent the application, plus quick access to the customer's WhatsApp in case they need it.`}
+                As a Technical Support Agent, I’m responsible for the maintenance and repair of equipment, managing support tickets, and resolving technical issues for internal users. I provide both hardware and software support, including troubleshooting, OS installations, updates, and ensuring system performance. My work also includes structured cabling, physical network connections, and logical setups such as IP configuration and connectivity troubleshooting.
             </p>
             <p className="text-gray-400 mt-4">
-                {`I had a strong commitment to providing the best customer service. As part of this, I held meetings with him and in the final stretch of the process to verify errors and changes that needed to be made prior to the launch.`}
+                One of the main challenges has been understanding the company's complex infrastructure — including servers, internal systems, and network architecture — which is essential to act quickly in case of outages or client-impacting issues. This role has helped me strengthen my problem-solving abilities, technical foundation, and capacity to work under pressure.
             </p>
-            <p className="text-gray-400 mt-4">
-                {`I learned how to set up a site to send emails, and improved my database security skills to prevent injection attacks. I also hired a hosting provider and uploaded the site. Communication with the team was one of the most important basics.`}
-            </p>
-
 
             <div className="inline-flex flex-wrap gap-2 mt-4 bg-[#1C1C20] rounded-full p-2 max-w-full">
-                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">Putty</span>
                 <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">Networking</span>
-                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg"></span>
-                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">HTML</span>
-                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">CSS</span>
+                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">Troubleshooting</span>
+                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">System Monitoring</span>
+                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">MySQL</span>
+                <span className="text-[#8E94BC] px-4 py-2 rounded-full text-sm md:text-base lg:text-lg">Putty</span>
             </div>
         </div>
+
     );
 }
